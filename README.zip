@@ -1,0 +1,27 @@
+Learner Data Transformation
+
+Overview
+
+This script transforms learner submission data into a specified format, calculating the weighted average and individual assignment scores for each learner.
+
+How to Use
+
+Clone the Repository:
+
+Copy code
+git clone https://github.com/itsjustyamo/-308SBA
+
+
+The script outputs an array of objects, each containing the following information:
+
+javascript code
+{
+  "id": number,          // ID of the learner
+  "avg": number,         // Weighted average score
+  <assignment_id>: number // Percentage score for each assignment
+}
+;;d
+ Refferences
+ The following websites helped gather code information and how to phrase some code
+ www.w3schools 
+ www.freecodecamp.com

@@ -135,4 +135,12 @@ continue;
 }}
 
 //Check points possible
+//Since now got the dates and a penaly, we can check the"" points possible"
+let ifPointsZero = assignment.points_possible
+if (ifPointsZero < 0 || ifPointsZero == isNaN){
+console.warn( //Wrong value entered. It should be an absolute number greater •
+console. log (ifPointsZero)
+)}
 
+const result = getLearnerData(courseInfo, AssignmentGroup, LearnerSubmissions);
+//console.log(result)
